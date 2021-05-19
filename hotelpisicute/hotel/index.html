@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&family=Lato:ital,wght@1,300&family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Meowtel</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <nav class="nav">
+            <a class="nav__link" id="main-link" data-link>MEOWTEL</a>
+            <a class="nav__link" id="playground-link" data-link>PLAYGROUND</a>
+            <a class="nav__link" id="acomodare-link" data-link>ACOMODARE</a>
+            <a class="nav__link" id="pisici-cazate-link" data-link>PISICI CAZATE</a>
+            <a class="nav__link" id="rezervari-link" data-link>REZERVARE</a>
+        </nav>
+        <br/>
+        <main id='main'>
+        </main>
+        <div class="modal__overlay">
+            <div class="modalPisica">
+                <div class="modal__content">
+                    <br/>
+                    <h3 class="modalTitle">Adăugați/Editați Pisică</h3>
+                    <div class="inputs__container">
+                        <input id="formNume" type="text" class="input" placeholder="Adăugați numele">
+                        <input id="formImgUrl" type="text" class="input input--img" placeholder="Adăugați url-ul imaginii">
+                    </div>
+                    <div class="modal__buttons">
+                        <button id="cancel" type="button" class="button-add">Cancel</button>
+                        <button id="save" type="button" class="button-add button--pink">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
